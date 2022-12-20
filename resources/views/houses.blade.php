@@ -5,8 +5,8 @@
 <div class="p-5 mb-4 bg-light rounded-3">
     <div class="container-fluid py-5">
         <h1 class="display-5 fw-bold">Lara-RealEstate</h1>
-        <p class="col-md-8 fs-4">Welcome to our site!</p>
-        <a class="btn btn-primary btn-lg" href="{{route('houses')}}">Find our houses</a>
+        <p class="col-md-8 fs-4">Come find our amazing houses offer</p>
+        <button class="btn btn-primary btn-lg" type="button">Find out more</button>
     </div>
 </div>
 
