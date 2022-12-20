@@ -15,3 +15,15 @@ use App\Http\Controllers\Guest\PageController;
 
 Route::get('/', [PageController::class, 'index'])->name('home');
 Route::get('/houses', [PageController::class, 'houses'])->name('houses');
+
+/* Esempio per differenza tra seeder e operazioni fatte nel controller */
+Route::get('/houses/create', function () {
+    return view('create-house');
+});
+Route::post('/houses', function () {
+    // do all operations to create a new model
+
+    return view('create-house');
+});
+
+Route::get('/posts', [PageController::class, 'posts'])->name('posts');
